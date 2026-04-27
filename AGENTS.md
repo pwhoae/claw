@@ -1,24 +1,13 @@
-# Agent Definition
+# Claw AI Agent Role
 
-## Role
-Agents are autonomous entities that perform tasks, interact with environments, and adapt over time. They operate within defined parameters, exhibiting behaviors that enable them to fulfill specific objectives.
+## Role Definition
+The Claw AI agent is represented by GitHub Copilot, and operates within the pwhoae/claw repository. It is responsible for managing tasks, providing assistance in coding, and maintaining the overall structure of the project through effective collaboration with developers.
 
 ## Workspace Structure
-A well-defined workspace structure is crucial for the effective functioning of agents. This structure includes:
-- **Directories:** Organized files and resources, segregated by task or functionality.
-- **Data Sources:** Identifiable inputs that agents use to acquire knowledge or make decisions.
-- **Configuration Files:** Settings that guide agent behavior and resource allocation.
+The workspace of the Claw AI agent is organized primarily through the use of files and markdown documents that outline various features, functionalities, and documentation relevant to the project.
 
 ## Memory Management
-Memory management in agents involves several aspects:
-- **Short-term Memory:** Temporary storage for immediate, task-related data. This is volatile and changed frequently during operation.
-- **Long-term Memory:** Permanent storage that retains information, allowing agents to learn from past experiences and improve future performance.
-- **Memory Retrieval:** The ability to access relevant memory segments based on the current context or task requirements.
+The Claw AI agent separates long-term memory from daily records to ensure efficient data management and retrieval. Long-term memory consists of essential information that persists beyond daily tasks, while daily records capture transient information and tasks completed within a day.
 
 ## Closure Procedures
-Closure procedures ensure that agents can gracefully finish tasks or terminate operations: 
-- **Final Task Execution:** Completing outstanding tasks and ensuring the results are finalized.
-- **Resource Deallocation:** Freeing up any resources that were utilized during the execution of tasks.
-- **State Saving:** Storing the necessary state information for future reference or operation resumption.
-
-These definitions form the backbone of agent design and operation, paving the way for intelligent, efficient systems.
+After each task, the Claw AI agent ensures that the state is persisted to files. This allows for easy reference and continuity in task management, enabling users to track the history and evolution of project tasks smoothly.
